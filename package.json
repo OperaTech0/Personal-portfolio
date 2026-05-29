@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "portfolio-website-main"
+  ],
+  "scripts": {
+    "dev": "npm --prefix portfolio-website-main run dev",
+    "build": "npm --prefix portfolio-website-main run build",
+    "preview": "npm --prefix portfolio-website-main run preview"
+  }
+}

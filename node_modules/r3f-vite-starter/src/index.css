@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+.glow-border {
+  background: linear-gradient(90deg, #7c3aed, #22d3ee, #f472b6, #f97316, #7c3aed);
+  background-size: 300% 300%;
+  animation: glow-ring 5s ease infinite;
+}
+
+@keyframes glow-ring {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
