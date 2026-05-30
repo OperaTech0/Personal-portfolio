@@ -61,7 +61,7 @@ export function Avatar(props){
     // slightly increase head size for more childlike proportions
     const head = g.getObjectByName('Wolf3D_Head');
     if(head){
-      head.scale.multiplyScalar(1.05);
+      head.scale.set(1.05, 1.05, 1.05);
     }
 
     // darken hair material and make skin a bit softer (childlike)

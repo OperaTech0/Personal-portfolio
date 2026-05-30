@@ -6,9 +6,7 @@ const LodingScreen = ({started,setStarted}) => {
 
     useEffect(()=>{
         if(progress === 100){
-            setTimeout(()=>{
-              setStarted(true);
-            },500);
+            setStarted(true);
         }
     },[progress])
     

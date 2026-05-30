@@ -1,6 +1,6 @@
 import {motion} from "framer-motion-3d";
 import { Office } from "./Office";
-import { Float, MeshDistortMaterial, MeshWobbleMaterial, useScroll } from "@react-three/drei";
+import { AdaptiveDpr, Float, MeshDistortMaterial, MeshWobbleMaterial, Preload, useScroll } from "@react-three/drei";
 import {Avatar} from "./Avatar.jsx"
 import { useFrame, useThree } from "@react-three/fiber";
 import { animate, useMotionValue } from "framer-motion";
@@ -212,7 +212,8 @@ export const Experience = ({ menuOpend }) => {
 
       </motion.group>
       <Projects/>
-
+      <Preload all />
+      <AdaptiveDpr />
     </>
   );
 };

@@ -33,7 +33,7 @@ function App() {
       shadows 
       camera={{ position: [0, 3, 10], fov:42 }}
       dpr={[1, 1.5]}
-      performance={{ current: 1 }}
+      performance={{ min: 0.5 }}
     >
       <color attach="background" args={["#616161"]} />
       
