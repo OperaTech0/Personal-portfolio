@@ -93,15 +93,15 @@ const EmailFrom = () => {
     }
   return (
     <>
-        <div className="mt-40 relative group">
+        <div className="mt-20 md:mt-40 relative group">
             {/* Background Glow */}
             <div className="absolute -inset-4 bg-indigo-500/10 blur-2xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
             
-            <div className="relative p-[1px] rounded-xl overflow-hidden w-96 max-w-full shadow-2xl">
+            <div className="relative p-[1px] rounded-xl overflow-hidden w-full max-w-[300px] md:w-96 shadow-2xl">
                 {/* Rotating Border Light */}
                 <div className="absolute inset-[-1000%] animate-spin [animation-duration:3s] bg-[conic-gradient(from_90deg_at_50%_50%,#6366f1_0%,#a855f7_50%,#6366f1_100%)]" />
                 
-                <div className="relative p-8 rounded-[11px] bg-slate-950/90 backdrop-blur-sm pointer-events-auto">
+                <div className="relative p-6 md:p-8 rounded-[11px] bg-slate-950/90 backdrop-blur-sm pointer-events-auto">
                     {/* Logo Section */}
                     <div className="flex flex-col items-center mb-6">
                         <div className="w-20 h-20 mb-4 rounded-full p-2 bg-slate-800/50 border border-slate-700 flex items-center justify-center overflow-hidden group-hover:border-indigo-500/50 transition-colors">

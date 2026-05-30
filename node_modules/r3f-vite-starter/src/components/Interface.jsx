@@ -17,8 +17,8 @@ const Section = ({children,mobileTop})=>{
     return (
     <motion.section 
     className={`
-    h-screen w-screen p-8 max-w-screen-2xl mx-auto
-    flex flex-col items-start 
+    h-screen w-screen p-4 md:p-8 max-w-screen-2xl mx-auto
+    flex flex-col items-center md:items-start 
     ${mobileTop ? "justify-start md:justify-center" :"justify-center"}
     `}
     initial = {{
