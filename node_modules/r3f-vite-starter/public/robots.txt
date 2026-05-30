@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://operatechcom.vercel.app/sitemap.xml
